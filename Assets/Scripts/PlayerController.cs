@@ -36,6 +36,11 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        if(Input.GetKey("q"))
+        {
+            Application.Quit();
+            return;
+        }
         //to stop player from moving/break
         if(Input.GetKey("space"))
         {
